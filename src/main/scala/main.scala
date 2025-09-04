@@ -1,6 +1,6 @@
 
-@main def main: Unit = 
-  val myGreeter = new Greeter("John")
-  for (i <- 1 to 2)
-    println(myGreeter.hi)
-    println(myGreeter.bye)
+@main def main = 
+  val myGreeter = new Greeter("Alex")
+  println("Hello world!")
+  println(myGreeter.hi)
+  println(myGreeter.bye)
